@@ -2,9 +2,24 @@
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+	char y;
+	if(x <= 'Z'&& x >= 'A'){
+	if(x > 'A'){
+char y = x-1;
+cout<<y; 
+}else{
+	if(char x = 'A'){
+		cout<<"Z";
+	}else{
+		cout<<"0";
+	}
+	
 }
 
+}else{
+cout << "0";
+}
+}
 int main(){
 	//Test Case
 	cout << before('A') << "\n";
